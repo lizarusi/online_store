@@ -5,397 +5,339 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" /> 
+	<link href="styles/jquery.rating.css" rel="stylesheet" type="text/css" /> 
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="FlexSlider/flexslider.css" type="text/css">
+    <script src="FlexSlider/jquery.flexslider.js"></script>
+
+	
+    
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.rating.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+		  $(window).load(function() {
+		    $('.flexslider').flexslider();
+		    $('div.rating').rating();
+
+		  });
+	</script>
+
 </head>
 <body>
-	<header>
-		<nav class = "navbar navbar-default navbar-static-top" role="navigation">					
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        </button>
-
-				<a href="" class="navbar-brand logo-container"><img src="images/logo_online_shop.png" class="logo" alt="" style="height: 80px; width: auto;">ONLINE <strong>STORE</strong> <br><span> </span></a></div>			
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-			
-			<ul class="nav navbar-nav ">
-				<li> <a href=""><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-				<li><a href=""><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
-				<li><a href=""><span class = "glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-			</ul>		
-			
-			<div class="">
-		        <form class="navbar-form" role="search">
-			        <div class="input-group">
-			            <input size="15px" type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-			            <div class="input-group-btn">
-			                <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-    					</div>
-				 		</div>
-				</form>
+<header>
+		<nav class = "top-menu">	
+			<div class="container">				
+				<ul class="navbar-top">
+					<li> <a href=""><span class="glyphicon glyphicon-user"></span> <span class="headers-captions"> Sign Up</span></a></li>
+					<li><a href=""><span class="glyphicon glyphicon-log-in"></span><span class="headers-captions"> Log In</span></a></li>
+					<li><a href=""><span class = "glyphicon glyphicon-shopping-cart"></span> <span class="headers-captions"> Cart</span></a></li>
+				</ul>
 				
-				</div>	
-
-		</div>
-
+			</div>	
 		</nav>
-	</header>
-	<div class="row">
-		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 menu-category-container">
-			<nav class="menu-category">
-				<div class="category"><span >Category :</span></div>
-				<ul class="nav nav-pills nav-stacked">
-					<li class="active"><a href="">Laptops, tablet, computers</a></li>
-					<li><a href="">Phones, MP3</a></li>
-					<li><a href="">TV, Audio, Video, Photo</a></li>
-					<li><a href="">Household appliances and interior</a></li>
-					<li><a href="">Child's world</a></li>
-					<li><a href="">Household products</a></li>
-			
-				</ul>					
-			</nav>
-		</div>
-		<div class="col-lg-10 col-md-10 col-sm-9 col-xs-8">
-			<div class="">
-				<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 item-col">
-					
-									
-						<div class="row">
-							<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-								<div class="col-lg-3 col-md-4 col-sm-6 container col-xs-12">
-								<div class="item">
-									<div class="img-container">	
-										<a href="#"><img src="images/lap1.jpg" style="height: 140px; width: auto;"></a>
-									</div>
-									<div class="title"><a href="">
-											<p>I am some item</p>
-										</a>
-									</div>
-									<div class="inline">
-										<div>
-											<div class="price">
-												1 000$
-											</div>
-										</div>
-										<div class="rait-stars">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-											<img src="images/staricon.gif" alt="" style="height:20px; width: auto; ">
-										</div>
-									</div>
-									<div class="btn btn-success"><span class = "glyphicon glyphicon-shopping-cart"></span>buy</div>
-								</div>
-							</div>
-
-						</div>
-						<div class="paginator-container">
-							<ul class="pagination">
-							  <li class="active"><a href="#">1</a></li>
-							  <li><a href="#">2</a></li>
-							  <li><a href="#">3</a></li>
-							  <li><a href="#">...</a></li>
-							  <li><a href="#">25</a></li>
-							</ul>
-						</div>
-						</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="logo"><img src="images/logo.png" style = "width: 250px;"alt=""></div>
+				</div>
+				<div class="col-sm-5">
+					<div id="search" class="input-group">
+						<input class="form-control input-lg" type="text" placeholder="Search" value="" name="search">
+						<span class="input-group-btn">
+							<button class="btn btn-default btn-lg" type="button">
+							<span class = "glyphicon glyphicon-search"></span>
+							</button>
+						</span>
 					</div>
 				</div>
+				<div class="col-sm-3">
+					<div id="cart" class="btn-group btn-block">
+						<button class="btn btn-inverse btn-block btn-lg dropdown-toggle" data-loading-text="Loading..." data-toggle="dropdown" type="button">
+							<span class = "glyphicon glyphicon-shopping-cart"></span>
+							<span id="cart-total">0 item(s) - $0.00</span>
+						</button>
+						<ul class="dropdown-menu pull-right">
+							<li>
+								<p class="text-center">Your shopping cart is empty!</p>
+							</li>
+						</ul>
+						</div>
+						
 				</div>
+			</div>
+			
+		</div>
+	</header>
+		<div class="container">
+			<nav class="navbar navbar-default" id="menu">
+				<div class="navbar-header">
+					<span id="category" class="visible-xs">Categories</span>
+					<button class="btn btn-navbar navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Desktops</a>
+							<div class="dropdown-menu" style="">
+								<div class="dropdown-inner">
+									<ul class="list-unstyled">
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">PC (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Mac (1)</a>
+										</li>
+									</ul>
+								</div>
+									<a class="see-all" data-toggle="dropdown" href="#">See All Desktops</a>
+							</div>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Laptops & Notebooks</a>
+							<div class="dropdown-menu" style="">
+								<div class="dropdown-inner">
+									<ul class="list-unstyled">
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Macs (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Windows (0)</a>
+										</li>
+
+									</ul>
+								</div>
+								<a class="see-all" href="#">See All Desktops</a>
+							</div>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="http://demo.opencart.com/index.php?route=product/category&path=25">Components</a>
+							<div class="dropdown-menu" style="">
+								<div class="dropdown-inner">
+									<ul class="list-unstyled">
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Mice and Trackballs (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Monitors (2)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Printers (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Scanners (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">Web Cameras (0)</a>
+										</li>
+									</ul>
+								</div>
+								<a class="see-all" href="h#">See All Components</a>
+								</div>
+						</li>
+						<li>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Tablets</a>
+						</li>
+						<li>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Software</a>
+						</li>
+						<li>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Phones & PDAs</a>
+						</li>
+						<li>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Cameras</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">MP3 Players</a>
+							<div class="dropdown-menu" style="margin-left: -203px;">
+								<div class="dropdown-inner">
+									<ul class="list-unstyled">
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 11 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 12 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 15 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 16 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 17 (0)</a>
+										</li>
+									</ul>
+									<ul class="list-unstyled">
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 18 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 19 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 20 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 21 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 22 (0)</a>
+										</li>
+									</ul>
+									<ul class="list-unstyled">
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 23 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 24 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 4 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 5 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 6 (0)</a>
+										</li>
+									</ul>
+									<ul class="list-unstyled">
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 7 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 8 (0)</a>
+										</li>
+										<li>
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">test 9 (0)</a>
+										</li>
+									</ul>
+								</div>
+								<a class="see-all" data-toggle="dropdown" href="#">See All MP3 Players</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="container">			
+	        <div class="flexslider">
+			  <ul class="slides">
+			    <li>
+			      <img src="images/image1.jpg" />
+			    </li>
+			    <li>
+			      <img src="images/image2.jpg" />
+			    </li>
+			  </ul>
+			</div>
+ 		
+        <h3>Featured</h3>
+		<div class="row products">
+			<div class="col-md-3">
+				<div class="item">
+					<div class="image">
+						<a href="#">
+							<img class="img-responsive" src="images/lap1.jpg" salt="">
+						</a>
+					</div>
+					<div class="caption">
+						<a><h4>Some item</h4></a>
+						<p>
+							I am some item with processor with something else ro make its box longer Intel Core 2 Duo...
+						</p>
+						<p class="price">
+							$602.00
+						</p>
+						<div class="rating"></div>
+					</div>
+					<div class="btn-group">
+						<button class="btn btn-default"><span class = "glyphicon glyphicon-shopping-cart"></span> ADD To CART</button>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="item">
+					<div class="image">
+						<a href="#">
+							<img class="img-responsive" src="images/lap1.jpg" salt="">
+						</a>
+					</div>
+					<div class="caption">
+						<a><h4>Some item</h4></a>
+						<p>
+							I am some item with processor with something else ro make its box longer Intel Core 2 Duo...
+						</p>
+						<p class="price">
+							$602.00
+						</p>
+						<div class="rating"></div>
+					</div>
+					<div class="btn-group">
+						<button class="btn btn-default"><span class = "glyphicon glyphicon-shopping-cart"></span> ADD To CART</button>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="item">
+					<div class="image">
+						<a href="#">
+							<img class="img-responsive" src="images/lap1.jpg" salt="">
+						</a>
+					</div>
+					<div class="caption">
+						<a><h4>Some item</h4></a>
+						<p>
+							I am some item with processor with something else ro make its box longer Intel Core 2 Duo...
+						</p>
+						<p class="price">
+							$602.00
+						</p>
+						<div class="rating"></div>
+					</div>
+					<div class="btn-group">
+						<button class="btn btn-default"><span class = "glyphicon glyphicon-shopping-cart"></span> ADD To CART</button>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="item">
+					<div class="image">
+						<a href="#">
+							<img class="img-responsive" src="images/lap1.jpg" salt="">
+						</a>
+					</div>
+					<div class="caption">
+						<a><h4>Some item</h4></a>
+						<p>
+							I am some item with processor with something else ro make its box longer Intel Core 2 Duo...
+						</p>
+						<p class="price">
+							$602.00
+						</p>
+						<div class="rating"></div>
+
+					</div>
+					
+					<div class="btn-group">
+						<button class="btn btn-default"><span class = "glyphicon glyphicon-shopping-cart"></span> ADD To CART</button>
+						
+					</div>
+				</div>
+			</div>
 		</div>
 		</div>
 		<footer>
@@ -445,6 +387,5 @@
 				</div>
 			</div>
 		</footer>
-		
 </body>
 </html>
